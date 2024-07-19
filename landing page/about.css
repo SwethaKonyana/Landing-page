@@ -1,0 +1,51 @@
+
+.S {
+   width: 100%;
+   padding: 40px;
+   border-style: none;
+   background-color: black;
+   background-image: url(dhwanifinal-removebg-preview.png);
+   background-repeat: no-repeat;
+   background-position:  left top;
+   background-size: 200px;
+   overflow: hidden;
+   
+   }
+  .button{
+    margin-left:1050px;
+    border: none;
+    color: aliceblue;
+    font-size: 25px;
+    text-align: bottom;
+    font-style: normal;
+    
+  }
+  .two{
+    background-color: aliceblue;
+
+   
+  }
+  .grid-containers {
+    display: grid;
+  
+  }
+  
+  .item2{
+    font-weight: bold;
+    font-size:50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+  }
+  .item3{
+    column-count: 2;
+    column-gap: 40px;
+    column-rule-style: solid;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    
+  }
+
+  

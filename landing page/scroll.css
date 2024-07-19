@@ -1,0 +1,95 @@
+body{
+    overflow-x: scroll;
+    
+        
+
+}
+.grid-container{
+    /* display: flex;
+   width: 50px;
+   height: 20px; */
+   display: grid;
+        grid-template-columns: repeat(9, 300px); /* Set a fixed width for each grid item */
+        grid-template-rows: repeat(1, 150px); /* Set a fixed height for each grid item */
+        gap: 10px;
+    margin: 50px auto 0px auto;
+    
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Disable vertical scrolling */
+    background-color: aliceblue;
+    flex-grow: 1;
+    scrollbar-width: none;
+    white-space: nowrap;
+    height: 200%;
+    
+       
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 10px; /* Adjust the height to your preference */
+}
+
+    .grid {
+        border: 1px solid #000; /* Optional: Add a border for visualization */
+        background: url('party - Copy.jpg') center/cover no-repeat; /* Set the image as a background */
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; 
+        
+        height: 100%;
+      border-radius: 15px;
+    
+}
+.grid-1 {
+    background: url('party - Copy.jpg') center/cover no-repeat;
+    background-size: 100% 100%;
+  }
+  
+.grid-2 {
+    background: url('https://img.wynk.in/unsafe/880x307/filters:no_upscale():strip_exif():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-zion/zion/1698310332279-Romance-N-Chill-FeaturedBanner_(2).jpg') center/cover no-repeat;
+    background-size: 100% 100%;
+  }
+  .grid-3 {
+    background: url('https://img.wynk.in/unsafe/880x307/filters:no_upscale():strip_exif():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/653252b0c78a823274c32a75/BANNER_18186049298089.png') center/cover no-repeat;
+    background-size: 100% 100%;
+}
+  .grid-4 {
+    background: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTgHl_Ju3iVxENafTDkow2VRsn9oR2K6Ny_y4qW28Q8yKAGs3wN') center/cover no-repeat;
+    background-size: 100% 100%;
+  }
+  .grid-5 {
+    background: url('https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/63bbff1a04fbaa2337d58a99/COLLECTION_202752852923060.png') center/cover no-repeat;
+    background-size: 100% 100%;
+  }
+  .grid-6{
+    background: url('https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/62d3abbe85b91c6859a414c3/COLLECTION_9306919763976235.png') center/cover no-repeat;
+    background-size: 100% 100%;
+  }
+  .grid-7 {
+    background: url('breakup.png') center/cover no-repeat;
+    background-size: 100% 100%;
+  }
+  .grid-8 {
+    background: url('top15telugu.PNG') center/cover no-repeat;
+    background-size: 100% 100%;
+  }
+  .grid-9 {
+    background: url('dance.PNG') center/cover no-repeat;
+    background-size: 100% 100%;
+  }
+  .grid:hover {
+    transform: scale(1.1); /* Increase the size of the grid item on hover */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    width:300px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+  
+  
+  
+  
+  
+  
